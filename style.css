@@ -1,0 +1,144 @@
+
+
+
+
+.ballers {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .curry {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    max-width: 100%; 
+    max-height: 100%;
+  }
+  
+  .flip-box {
+    background-color: transparent;
+    width: 400px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 20px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:active .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+
+  .flip-box.active .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color:rgba(0,0,0,.8);
+    color: white;
+  }
+
+p{ 
+    color: goldenrod;
+}
+  .flip-box-back {
+    background-color:rgba(0,0,0,.5);
+    color: goldenrod;
+    transform: rotateX(180deg);
+  }
+
+  .row-1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px;
+    
+  }
+
+
+
+  main{
+      margin: 140px;
+  }
+
+  .ballers{
+      z-index: -4;
+  }
+  nav{
+    background-color:rgba(0,0,0,.5);
+    width: 100%;
+    margin: -15px;
+    padding: 15px;
+    height: 60px;
+  }
+
+  .logo{
+color: goldenrod;
+font-family: 'Prociono', serif;
+width: 100%;
+margin: 25px;
+  }
+
+  .player-pics{
+      width: 210px;
+      height: 130px;
+      image-rendering: -webkit-optimize-contrast;
+  }
+  .player-pics1{
+      width: 210px;
+      height: 100px;
+      image-rendering: -webkit-optimize-contrast;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: -10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color:rgba(0,0,0);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:goldenrod;
+  }
+  
+
+  /* activate the cards */
+
+/* .active{
+    transform: rotateX(180deg);
+} */
+
+
+/* .review{
+
+} */
