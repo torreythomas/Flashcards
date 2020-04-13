@@ -142,3 +142,14 @@ margin: 25px;
 /* .review{
 
 } */
+
+
+.reviewCard{
+background-color:rgba(0,0,0,.8);
+border: 2px solid white;
+color: goldenrod;
+text-align: center;
+margin-top: 10px;
+}
+
+

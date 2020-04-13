@@ -33,8 +33,12 @@ function searching(evt) {
   });
 };
 
-// The code below is an attempted implementation of a Javascript function allowing a card to be flipped. 
-// The logic to get the card to return to it's original unflipped state is being developed.
+
+
+
+// // The code below is an attempted implementation of a Javascript function allowing a card to be flipped. 
+// // The logic to get the card to return to it's original unflipped state is being developed.
+
 
 //  let flipTheBoxes =  document.getElementsByClassName("flip-box-inner");
 
@@ -44,11 +48,13 @@ function searching(evt) {
 //   evt.preventDefault();
 //   console.log(evt);
 // if(box.x ==="true"){     box.style.transform = "rotateX(180deg)";}
-// else { box.style.transform = "rotateX(180deg)" }
+
 
 
 
 // }));
+
+
 
 
 
